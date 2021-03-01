@@ -1,0 +1,31 @@
+*{
+	font-family: Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style-type: none;
+	font-size: 2em;
+}
+
+nav{
+		align-self: flex-start;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 10%;
+}
+
+img{
+	max-width: 50%;
+	height: auto;
+}
